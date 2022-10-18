@@ -33,13 +33,13 @@ const App = () => {
       <SearchBox
         className='monsters-search-box'
         placeholder='search monster'
-        handleChange={onSearchChange}
+        onChangeHandler={onSearchChange}
       />
       <br />
       <SearchBox
         className='title-search-box'
         placeholder='Title'
-        handleChange={onTitleChange}
+        onChangeHandler={onTitleChange}
       />
       <CartList monsters={filteredMonsters} />
     </div>
